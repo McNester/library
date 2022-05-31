@@ -1,0 +1,46 @@
+#mainTable{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    overflow: scroll;
+}
+
+#listOfLibrary{
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+    border: 1vw solid black;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-evenly;
+    
+}
+
+.authorInformation{
+    height: 10vh;
+    width: 90vw;
+    border: 0.5vw solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.controls{
+    background-color: aquamarine;
+    border: 0.5vw solid aquamarine;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+.controls:hover{
+    background-color: rgb(29, 255, 180);
+    border: 0.5vw solid rgb(29, 255, 180);
+}
